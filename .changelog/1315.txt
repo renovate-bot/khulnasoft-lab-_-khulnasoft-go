@@ -1,0 +1,7 @@
+```release-note:breaking-change
+khulnasoft: remove `api.AccountID` from client struct
+```
+
+```release-note:breaking-change
+khulnasoft: remove `UsingAccount` in favour of resource specific attributes
+```
