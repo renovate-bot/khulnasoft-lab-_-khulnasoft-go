@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	khulnasoft "github.com/khulnasoft-lab/go-api"
+	khulnasoft "github.com/khulnasoft-lab/khulnasoft-go"
 )
 
 func ExampleAPI_ListZoneLockdowns_all() {

@@ -15,7 +15,7 @@ then
   exit 1
 fi
 
-current_pr=$(curl -s "https://api.github.com/repos/khulnasoft-lab/go-api/issues?state=all&per_page=1" | jq -r ".[].number")
+current_pr=$(curl -s "https://api.github.com/repos/khulnasoft-lab/khulnasoft-go/issues?state=all&per_page=1" | jq -r ".[].number")
 next_pr=$(($current_pr + 1))
 changelog_path=".changelog/$next_pr.txt"
 

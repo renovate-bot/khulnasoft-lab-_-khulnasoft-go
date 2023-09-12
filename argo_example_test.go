@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	khulnasoft "github.com/khulnasoft-lab/go-api"
+	khulnasoft "github.com/khulnasoft-lab/khulnasoft-go"
 )
 
 func ExampleAPI_ArgoSmartRouting() {

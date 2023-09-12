@@ -1,8 +1,8 @@
-# go-api
+# khulnasoft-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/khulnasoft-lab/go-api.svg)](https://pkg.go.dev/github.com/khulnasoft-lab/go-api)
-![Test](https://github.com/khulnasoft-lab/go-api/workflows/Test/badge.svg)
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/go-api?style=flat-square)](https://goreportcard.com/report/github.com/khulnasoft-lab/go-api)
+[![Go Reference](https://pkg.go.dev/badge/github.com/khulnasoft-lab/khulnasoft-go.svg)](https://pkg.go.dev/github.com/khulnasoft-lab/khulnasoft-go)
+![Test](https://github.com/khulnasoft-lab/khulnasoft-go/workflows/Test/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/khulnasoft-go?style=flat-square)](https://goreportcard.com/report/github.com/khulnasoft-lab/khulnasoft-go)
 
 > **Note**: This library is under active development as we expand it to cover
 > our (expanding!) API. Consider the public API of this package a little
@@ -26,7 +26,7 @@ this project.
 You need a working Go environment. We officially support only currently supported Go versions according to [Go project's release policy](https://go.dev/doc/devel/release#policy).
 
 ```
-go get github.com/khulnasoft-lab/go-api
+go get github.com/khulnasoft-lab/khulnasoft-go
 ```
 
 ## Getting Started
@@ -40,7 +40,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/khulnasoft-lab/go-api"
+	"github.com/khulnasoft-lab/khulnasoft-go"
 )
 
 func main() {
@@ -66,7 +66,7 @@ func main() {
 ```
 
 Also refer to the
-[API documentation](https://pkg.go.dev/github.com/khulnasoft-lab/go-api) for
+[API documentation](https://pkg.go.dev/github.com/khulnasoft-lab/khulnasoft-go) for
 how to use this package in-depth.
 
 ## Experimental improvements

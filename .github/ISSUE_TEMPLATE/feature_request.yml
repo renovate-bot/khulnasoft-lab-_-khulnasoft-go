@@ -4,7 +4,7 @@ labels: ["kind/enhancement", "needs-triage"]
 body:
 - type: input
   attributes:
-    label: Current go-api version
+    label: Current khulnasoft-go version
     description: |
       If you're not using the latest version, please check to see if something related
       to your request has already been implemented in a later version.
@@ -30,7 +30,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Potential go-api usage
+    label: Potential khulnasoft-go usage
     description: |
       Show how you think this should work and interact. No need to wrap the Go 
       code in backticks, it will be rendered as Go in the final output. 

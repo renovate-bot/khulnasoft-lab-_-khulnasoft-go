@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	khulnasoft "github.com/khulnasoft-lab/go-api"
+	khulnasoft "github.com/khulnasoft-lab/khulnasoft-go"
 	"github.com/urfave/cli/v2"
 )
 

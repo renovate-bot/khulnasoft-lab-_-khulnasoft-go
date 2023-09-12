@@ -1,13 +1,13 @@
 # flarectl
 
-A CLI application for interacting with a Khulnasoft account. Powered by [go-api](https://github.com/khulnasoft-lab/go-api).
+A CLI application for interacting with a Khulnasoft account. Powered by [khulnasoft-go](https://github.com/khulnasoft-lab/khulnasoft-go).
 
 ## Installation 
 
 Install it when you install our command-line library:
 
 ```sh
-go install github.com/khulnasoft-lab/go-api/cmd/flarectl@latest
+go install github.com/khulnasoft-lab/khulnasoft-go/cmd/flarectl@latest
 ```
 
 # Usage

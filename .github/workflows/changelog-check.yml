@@ -15,5 +15,5 @@ jobs:
         working-directory: ./internal/tools
         env:
           GITHUB_OWNER: khulnasoft
-          GITHUB_REPO: go-api
+          GITHUB_REPO: khulnasoft-go
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

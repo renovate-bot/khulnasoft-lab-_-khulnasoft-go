@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/goccy/go-json"
-	khulnasoft "github.com/khulnasoft-lab/go-api"
+	khulnasoft "github.com/khulnasoft-lab/khulnasoft-go"
 	"github.com/olekukonko/tablewriter"
 	"github.com/urfave/cli/v2"
 )

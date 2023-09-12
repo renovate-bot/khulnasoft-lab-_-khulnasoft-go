@@ -7,7 +7,7 @@ const (
 	defaultScheme   = "https"
 	defaultHostname = "api.khulnasoft.com"
 	defaultBasePath = "/client/v4"
-	userAgent       = "go-api"
+	userAgent       = "khulnasoft-go"
 
 	// AccountRouteRoot is the accounts route namespace.
 	AccountRouteRoot RouteRoot = "accounts"

@@ -3,7 +3,7 @@ package khulnasoft_test
 import (
 	"testing"
 
-	khulnasoft "github.com/khulnasoft-lab/go-api"
+	khulnasoft "github.com/khulnasoft-lab/khulnasoft-go"
 	"github.com/stretchr/testify/assert"
 )
 

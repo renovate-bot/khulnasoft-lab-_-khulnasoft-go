@@ -14,7 +14,7 @@ import (
 
 const (
 	changelogEntryFileFormat      = ".changelog/%d.txt"
-	changelogProcessDocumentation = "https://github.com/khulnasoft-lab/go-api/blob/master/docs/changelog-process.md"
+	changelogProcessDocumentation = "https://github.com/khulnasoft-lab/khulnasoft-go/blob/master/docs/changelog-process.md"
 	changelogDetectedMessage      = "changelog detected :white_check_mark:"
 )
 

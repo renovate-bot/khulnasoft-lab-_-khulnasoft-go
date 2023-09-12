@@ -1,4 +1,4 @@
-module github.com/khulnasoft-lab/go-api
+module github.com/khulnasoft-lab/khulnasoft-go
 
 go 1.18
 
