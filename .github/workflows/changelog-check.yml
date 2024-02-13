@@ -7,13 +7,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set up Go
-        uses: actions/setup-go@v4
+        uses: actions/setup-go@v5
         with:
           go-version-file: 'internal/tools/go.mod'
       - run: go generate -tags tools internal/tools/tools.go
       - run: go run cmd/changelog-check/main.go ${{ github.event.pull_request.number }}
         working-directory: ./internal/tools
         env:
-          GITHUB_OWNER: khulnasoft
+          GITHUB_OWNER: khulnasoft-lab
           GITHUB_REPO: khulnasoft-go
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
