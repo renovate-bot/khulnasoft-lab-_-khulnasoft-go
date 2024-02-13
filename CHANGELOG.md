@@ -2,8 +2,12 @@
 
 DEPENDENCIES:
 
+* deps: bumps actions/setup-go from 4 to 5 ([#21](https://github.com/khulnasoft-lab/khulnasoft-go/issues/21))
 * deps: bumps codecov/codecov-action from 3 to 4 ([#3](https://github.com/khulnasoft-lab/khulnasoft-go/issues/3))
+* deps: bumps github/codeql-action from 2 to 3 ([#22](https://github.com/khulnasoft-lab/khulnasoft-go/issues/22))
 * deps: bumps golang.org/x/net from 0.15.0 to 0.16.0 ([#4](https://github.com/khulnasoft-lab/khulnasoft-go/issues/4))
+* deps: bumps golang.org/x/net from 0.16.0 to 0.17.0 ([#5](https://github.com/khulnasoft-lab/khulnasoft-go/issues/5))
+* deps: bumps golang.org/x/time from 0.3.0 to 0.4.0 ([#16](https://github.com/khulnasoft-lab/khulnasoft-go/issues/16))
 
 ## 0.48.0 (August 22nd, 2022)
 
