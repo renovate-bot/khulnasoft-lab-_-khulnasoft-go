@@ -1,6 +1,8 @@
 module github.com/khulnasoft-lab/khulnasoft-go
 
-go 1.18
+go 1.23.0
+
+toolchain go1.24.6
 
 require (
 	github.com/goccy/go-json v0.10.2
@@ -9,7 +11,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/stretchr/testify v1.8.4
 	github.com/urfave/cli/v2 v2.25.7
-	golang.org/x/net v0.18.0
+	golang.org/x/net v0.38.0
 	golang.org/x/time v0.4.0
 )
 
@@ -31,6 +33,6 @@ require (
 	github.com/rogpeppe/go-internal v1.8.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
